@@ -76,7 +76,9 @@ Here is an example of each after resizing:
 I utilized tensorflow's flow_from_directory method to load in my photos. Because of this, I had to be sure to load my photos in with the following format with the photos saved as jpg files:
 
 |-Images |-Coyote
+
          |-Dog
+         
          |-Wolf
 
 ### Data Augmentation
