@@ -6,7 +6,7 @@
     <img src="Images/wolf-vs-coyote.webp" alt="Logo" width="460" height="260">
   </a>
 
-  <h3 align="center">Coyote-Wolf-Dog-Classifier</h3>
+  <h3 align="center">http://www.withywindlenature.com/2015/11/03/differentiating-wild-canine-tracks-from-domestic-canines/</h3>
 </p>
 
 
