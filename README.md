@@ -109,6 +109,11 @@ Average pooling helps to prevent overfitting by averaging the vectorized images.
 ---
 
 ## Results
+
+### Prediction
+The following image is based on a 16 size batch of validation data:
+![grid_predictions](/Images/prediction_photo_array.jpg)
+
 ### Metrics
 
 I will in this section include the loss and acc graphs of the model over the epochs, as well as a confusion matrix on the validation data - I have the scripts written I am just waiting for my final model to finish
