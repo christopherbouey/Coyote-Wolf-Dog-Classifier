@@ -78,9 +78,11 @@ Here is an example of each after resizing:
 </p>
 
 <center>
+  
 Coyote          |  Dog                      |        Wolf
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](Images/coyote_1.jpg)  |  ![](/Images/dogs_10.jpg)  |   ![](/Images/wolf_105.jpg)
+
 </center>
 
 ---
