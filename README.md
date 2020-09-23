@@ -1,14 +1,12 @@
-# Coyote-Wolf-Dog-Classifier
-
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/christopherbouey/Coyote-Wolf-Dog-Classifier">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Images/wolf-vs-coyote.webp" alt="Logo" width="460" height="260">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Coyote-Wolf-Dog-Classifier</h3>
 </p>
 
 
@@ -29,9 +27,11 @@
 <!-- ABOUT THE PROJECT -->
 ## Description
 
-I wanted an opportunity to explore Transfer Learning and Image Classification. In my search for an available dataset and a project purpose, I remembered a recent article about a resurgence of coyote activity in San Francisco thanks to the recent decrease in human activity. I have always had trouble distinguishing between coyotes and other canines, so I decided to build an image classifier to classify pictures of coyotes, wolves, and domesticated dogs (not that there will be wolves coming into SF any time soon, but I wanted to gain experience in multi-class models).
+The goal of this project was to develop a fine-grained image classifier that could differentiate between coyotes, domesticated dogs, and wolves successfully.
 
-[Coyote Article](https://www.sfgate.com/living-in-sf/article/New-footage-Coyotes-take-to-SF-rooftops-frolick-15257171.php#item-95844-tbla-2)
+I wanted an opportunity to explore Transfer Learning and Image Classification. In my search for an available dataset and a project purpose, I remembered a recent [article](https://www.sfgate.com/living-in-sf/article/New-footage-Coyotes-take-to-SF-rooftops-frolick-15257171.php#item-95844-tbla-2) about a resurgence of coyote activity in San Francisco thanks to the recent decrease in human activity. I have always had trouble distinguishing between coyotes and other canines, so I decided to build an image classifier to classify pictures of coyotes, wolves, and domesticated dogs (not that there will be wolves coming into SF any time soon, but I wanted to gain experience in multi-class models).
+
+
 
 
 ## Data Overview
@@ -44,9 +44,6 @@ There were many links available for each category on Imagenet's site
 * Dog: 1603
 * Wolf: 1820
 
-
-
-
 ---
 
 ## Data Exploration
@@ -58,6 +55,8 @@ After resizing photos to (224,224,3), I was able to download the following numbe
 * Coyote: 911
 * Dog: 771
 * Wolf: 862
+
+![bar](/Images/histoooooo grammmmmm)
 
 Here is an example of each after resizing:
 ![Coyote](/Photos/coyote_samp.png)
@@ -75,7 +74,7 @@ Here is an example of each after resizing:
 
 I utilized tensorflow's flow_from_directory method to load in my photos. Because of this, I had to be sure to load my photos in with the following format with the photos saved as jpg files:
 
-  |-Images 
+    |-Images 
 
          |-Coyote
 
@@ -93,9 +92,9 @@ This method serves to avoid overfitting by artificially gernerating "new" images
 
 ### Base
 
-Because of the limited timeline to perform this project, I decided to use the MobileNetV2 model with the Imagenet weights loaded as the base model. I removed the top from this model, to append my own classifier on top. 
+Because of the limited timeline to perform this project, I used the lightweight MobileNetV2 model with the Imagenet weights loaded as the base model. I removed the top from this model to append my own classifier on top. 
 
-Froze the convolutional base as the model is trained on similar images so should not require any fine-tuning.
+The model was pre-trained on the full Imagenet dataset and the weights were imported and applied to the base model. These weights were then frozen to maintain the feature extraction capabilities gained in the original training.
 
 ### Classifying Layers
 
