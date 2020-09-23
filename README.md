@@ -77,6 +77,12 @@ Here is an example of each after resizing:
   <img align="center" src="/Images/wolf_105.jpg" width="250" height="250" />
 </p>
 
+
+Coyote          |  Dog                      |        Wolf
+:-------------------------:|:-------------------------:|:-------------------------:
+![](Images/coyote_1.jpg)  |  ![](/Images/dogs_10.jpg)  |   ![](/Images/wolf_105.jpg)
+
+
 ---
 
 ## Pipeline
