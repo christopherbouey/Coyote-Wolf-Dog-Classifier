@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Description
 
-The goal of this project was to develop an image classifier that could differentiate between coyotes, domesticated dogs, and wolves.
+The goal of this project was to develop a fine-grained image classifier that could differentiate between coyotes, domesticated dogs, and wolves successfully.
 
 I wanted an opportunity to explore Transfer Learning and Image Classification. In my search for an available dataset and a project purpose, I remembered a recent [article](https://www.sfgate.com/living-in-sf/article/New-footage-Coyotes-take-to-SF-rooftops-frolick-15257171.php#item-95844-tbla-2) about a resurgence of coyote activity in San Francisco thanks to the recent decrease in human activity. I have always had trouble distinguishing between coyotes and other canines, so I decided to build an image classifier to classify pictures of coyotes, wolves, and domesticated dogs (not that there will be wolves coming into SF any time soon, but I wanted to gain experience in multi-class models).
 
