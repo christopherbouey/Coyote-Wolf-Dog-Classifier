@@ -56,7 +56,7 @@ After resizing photos to (224,224,3), I was able to download the following numbe
 * Dog: 771
 * Wolf: 862
 
-![bar](/Images/Class_dist.png)
+![bar](/Images/Class_dist.png=250x250)
 
 Here is an example of each after resizing:
 ![Coyote](/Photos/coyote_samp.png)
