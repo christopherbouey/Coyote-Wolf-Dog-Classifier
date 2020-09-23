@@ -92,9 +92,9 @@ This method serves to avoid overfitting by artificially gernerating "new" images
 
 ### Base
 
-Because of the limited timeline to perform this project, I decided to use the MobileNetV2 model with the Imagenet weights loaded as the base model. I removed the top from this model, to append my own classifier on top. 
+Because of the limited timeline to perform this project, I used the lightweight MobileNetV2 model with the Imagenet weights loaded as the base model. I removed the top from this model to append my own classifier on top. 
 
-Froze the convolutional base as the model is trained on similar images so should not require any fine-tuning.
+The model was pre-trained on the full Imagenet dataset and the weights were imported and applied to the base model. These weights were then frozen to maintain the feature extraction capabilities gained in the original training.
 
 ### Classifying Layers
 
