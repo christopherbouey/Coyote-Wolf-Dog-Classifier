@@ -62,11 +62,20 @@ After resizing photos to (224,224,3), I was able to download the following numbe
 
 Here is an example of each after resizing:
 
-**Coyote**                  ![Coyote](/Images/coyote_1.jpg)
+**Coyote**                  
+<p align="center">
+  <img align="center" src="Images/coyote_1.jpg" width="250" height="250" />
+</p>
 
-**Dog**                     ![Dog](/Images/dogs_10.jpg)
+**Dog**
+<p align="center">
+  <img align="center" src="/Images/dogs_10.jpg" width="250" height="250" />
+</p>
 
-**Wolf**                    ![Wolf](/Images/wolf_105.jpg)
+**Wolf**    
+<p align="center">
+  <img align="center" src="/Images/wolf_105.jpg" width="250" height="250" />
+</p>
 
 ---
 
