@@ -123,7 +123,7 @@ Average pooling helps to prevent overfitting by averaging the vectorized images.
 The following image is based on a 16 size batch of validation data:
 ![grid_predictions](/Images/prediction_photo_array.jpg)
 
-15 out of 16 were correctly labeled, with one photo in the second row being mislabeled 'wolf' instead of 'dog'
+14 out of 16 were correctly labeled, with one photo in the second row being mislabeled 'wolf' instead of 'dog', and an image in the last row being mislabeled 'wolf' instead of 'coyote'
 
 ### Metrics
 
