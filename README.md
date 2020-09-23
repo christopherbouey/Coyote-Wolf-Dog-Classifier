@@ -133,4 +133,6 @@ I will in this section include the loss and acc graphs of the model over the epo
 
 -Save augmented images into drive to perform preliminary feature extraction : will significantly reduce training time in future
 
+-Try some fine-tuning of the model
+
 [Back To The Top]
