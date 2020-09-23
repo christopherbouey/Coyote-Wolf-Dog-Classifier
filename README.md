@@ -56,7 +56,9 @@ After resizing photos to (224,224,3), I was able to download the following numbe
 * Dog: 771
 * Wolf: 862
 
-<img align="center" src="Images/Class_dist.png" width="400" height="400" />
+<p align="center">
+  <img align="center" src="Images/Class_dist.png" width="400" height="400" />
+</p>
 
 Here is an example of each after resizing:
 
