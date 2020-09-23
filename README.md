@@ -1,5 +1,3 @@
-# Coyote-Wolf-Dog-Classifier
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -8,7 +6,7 @@
     <img src="Images/wolf-vs-coyote.webp" alt="Logo" width="460" height="260">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Coyote-Wolf-Dog-Classifier</h3>
 </p>
 
 
