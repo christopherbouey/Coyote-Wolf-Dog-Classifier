@@ -91,13 +91,18 @@ To increase the effectivenss of the relatively small train set, I used TF's Imag
 
 This method serves to avoid overfitting by artificially gernerating "new" images so that the model can capture angles/positions/sizes of the objects that do not actually exist in the training set. 
 
+### Callbacks
+
+To increase the efficiency and effectiveness of the model, I utilized the following callbacks:
+* ModelCheckpoint
+* ReducedLROnPlateau
+* EarlyStopping
+
 ## Transfer Learning
 
 ### Base
 
-Because of the limited timeline to perform this project, I used the lightweight MobileNetV2 model with the Imagenet weights loaded as the base model. I removed the top from this model to append my own classifier on top. 
-
-The model was pre-trained on the full Imagenet dataset and the weights were imported and applied to the base model. These weights were then frozen to maintain the feature extraction capabilities gained in the original training.
+Because of the limited timeline to perform this project, I used the lightweight MobileNetV2 model with the Imagenet weights loaded as the base model. I removed the top from this model to append my own classifier on top. The model was pre-trained on the full Imagenet dataset and the weights were imported and applied to the base model. These weights were then frozen to maintain the feature extraction capabilities gained in the original training.
 
 ### Classifying Layers
 
