@@ -62,21 +62,6 @@ After resizing photos to (224,224,3), I was able to download the following numbe
 
 Here is an example of each after resizing:
 
-**Coyote**                  
-<p align="center">
-  <img align="center" src="Images/coyote_1.jpg" width="250" height="250" />
-</p>
-
-**Dog**
-<p align="center">
-  <img align="center" src="/Images/dogs_10.jpg" width="250" height="250" />
-</p>
-
-**Wolf**    
-<p align="center">
-  <img align="center" src="/Images/wolf_105.jpg" width="250" height="250" />
-</p>
-
 <center>
   
 Coyote          |  Dog                      |        Wolf
