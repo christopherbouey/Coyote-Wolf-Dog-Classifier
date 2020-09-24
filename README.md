@@ -126,8 +126,25 @@ The following image is based on a 16 size batch of validation data:
 14 out of 16 were correctly labeled, with one photo in the second row being mislabeled 'wolf' instead of 'dog', and an image in the last row being mislabeled 'wolf' instead of 'coyote'
 
 ### Metrics
+**Accuracy:**
 
-I will in this section include the loss and acc graphs of the model over the epochs, as well as a confusion matrix on the validation data - I have the scripts written I am just waiting for my final model to finish
+Initial: ~0.78
+
+![](/Images/early_acc_graph.png)
+
+After Fine Tuning: ~0.81
+
+![](/Images/fine_tune_acc.png)
+
+**Categorical Cross Entropy Loss**
+
+Initial: ~0.64
+
+![](/Images/early_loss_graph.png)
+
+After Fine Tuning: ~0.53
+
+![](/Images/fine_tune_loss.png)
 
 
 ## Next Steps
@@ -139,6 +156,6 @@ I will in this section include the loss and acc graphs of the model over the epo
 
 -Save augmented images into drive to perform preliminary feature extraction : will significantly reduce training time in future
 
--Try some fine-tuning of the model
+-Try more fine-tuning of the model
 
 [Back To The Top]
